@@ -1,0 +1,1216 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RN Motion TV</title>
+
+
+    <link href="{% static 'AppRNMTV/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'AppRNMTV/css/font-awesome.css' %}" rel="stylesheet">
+    <link href="{% static 'AppRNMTV/js/owl-carousel/owl.carousel.css' %}" rel="stylesheet">
+    <link href="{% static 'AppRNMTV/js/owl-carousel/owl.theme.css' %}" rel="stylesheet">
+    <link href="{% static 'AppRNMTV/js/owl-carousel/owl.transitions.css' %}" rel="stylesheet">
+    <link href="{% static 'AppRNMTV/css/magnific-popup.css' %}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'AppRNMTV/css/animate.css' %}" />
+    <link rel="stylesheet" href="{% static 'AppRNMTV/css/etlinefont.css' %}">
+    <link href="{% static 'AppRNMTV/css/style.css' %}" type="text/css"  rel="stylesheet"/>
+
+    <!-- apartado de carousel -->
+    <link href="{% static 'AppRNMTV/css/owl.carousel.css' %}" rel="stylesheet">
+ 
+    
+
+
+</head>
+<body  data-spy="scroll" data-target="#main-menu">
+
+
+    <div id="pageloader">   
+        <div class="loader">
+          <img src="{% static 'AppRNMTV/images/load2.gif' %}" alt='loader' />
+        </div>
+   </div>
+
+
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="fa fa-bars"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--Start Logo -->
+                    <div class="logo-nav">
+                        <a href="{% url 'index' %}">
+                            <img src="{% static 'AppRNMTV/images/log4.png' %}" alt="logo" />
+                        </a>
+                    </div>
+                    <!--End Logo -->
+                    <div class="clear-toggle"></div>
+                    <div id="main-menu" class="collapse scroll navbar-right">
+                        <ul class="nav">
+                        
+                            <li class="active"> <a href="#home">Home</a> </li>
+                            
+                            <li> <a href="#about">About</a> </li>
+                            
+                            
+                            <!-- <li> <a href="#works">Our Work</a> </li>
+                            
+                             <li> <a href="#team">Team</a> </li> -->
+                           
+                            <li> <a href="#services">Services</a> </li>
+                                                                
+                            <!-- <li> <a href="#blog">Blog</a></li>
+                            
+                            <li> <a href="#testimonials">Testimonials</a></li> -->
+                             
+                            <li> <a href="#contact">Contact</a> </li>
+                                
+                        </ul>
+                    </div><!-- end main-menu -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="home" class="home">
+        <div class="slider-overlay"></div>
+       <div class="flexslider">
+           <ul class="slides scroll">
+               <li class="first">
+                   <div class="slider-text-wrapper">  
+                       <div class="container">
+                           <div class="big">GREAT VISUALS FOR GREAT BRANDS</div>          
+                           <!-- <div class="small">Are you ready to buy this theme</div> -->
+                           
+                       </div>       
+                   </div>
+                   <video class="vid" src="{% static 'AppRNMTV/video/Reel.mp4' %}"  width="100%" height="100%" muted loop autoplay="autoplay" alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"></video>
+                  <!--  <img src="{% static 'AppRNMTV/images/slider/1.jpg' %}" alt=""> -->
+               </li>
+               
+           </ul>
+       </div>
+   </section>
+
+   <section id="about" class="section">
+   
+      <div class="title-box text-center">
+        <h2 class="title">About</h2>
+     </div>
+     <div class="container">
+        <div class="row text-center">
+            <p><h1 class="abo">WE ARE IN THE BUSINESS OF MAKING VISUALLY IMPACTFUL STORIES
+                COME TO LIFE BY PARTNERING WITH AGENCIES, PRODUCTION 
+                COMPANIES AND BRANDS</h1></p>
+           
+      </div>
+    </div>
+    <br>
+     <div ><hr></div>
+
+
+
+      
+    
+    <div class="work-main">
+    
+        <ul class="work-grid">
+           
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/01-RNMOTION_Gillette-Endurance.jpg' %}" alt="thumbnail">
+                    
+              
+                     <div class="hover-link">
+                       <!--  <a class="popup-vimeo"  href="https://player.vimeo.com/video/672446205?h=155b7eb866" frameborder="0" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672446205?h=155b7eb866" >
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                 
+                     <div class="work-caption">
+                         <h4>Gillette Endurance</h4>
+                         
+                     </div>
+                    
+
+                </div> 
+            </li> 
+         
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/02-RNMOTION_Gillette-UCL-Sizzle.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                       <!--  <a class="popup-vimeo"  href="https://player.vimeo.com/video/672446175?h=dbdcb17c4e" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672446175?h=dbdcb17c4e">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Gillette UCL Sizzle</h4>
+                         
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <!--End Work Item -->
+            
+            <!-- Work Item -->
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/03-RNMOTION_Gillette-M3-Turbo.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                       <!--  <a class="popup-vimeo"  href="https://player.vimeo.com/video/672446138?h=cf5968fcfb" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672446138?h=cf5968fcfb">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Gillette Comfort Gel</h4>
+                     
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <!--End Work Item -->
+
+            <!-- Work Item -->
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/04-RNMOTION_Gillette-M3-Turbo.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                       <!--  <a class="popup-vimeo"  href="https://player.vimeo.com/video/672446216?h=7dc0a581eb" >
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        -->
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672446216?h=7dc0a581eb">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Gillette M3 Turbo</h4>
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <!--End Work Item -->
+            
+            <!-- Work Item -->
+            <li class="work-item thumnail-img mix fashion wedding">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/05-RNMOTION_Always-Pad.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                        <!-- <a class="popup-vimeo"  href="https://player.vimeo.com/video/672447651?h=4afe796489" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672447651?h=4afe796489">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Always Pad</h4>
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <!--End Work Item -->
+            
+            <!-- Work Item -->
+            <li class="work-item thumnail-img mix event wedding">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/06-RNMOTION_Always-Night.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                       <!--  <a class="popup-vimeo"  href="https://player.vimeo.com/video/672447691?h=67ed53c4a9" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672447691?h=67ed53c4a9">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4> Always Night</h4>
+                  
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <!--End Work Item -->
+
+            <!-- Work Item -->
+            <li class="work-item thumnail-img mix event">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/07-RNMOTION_Always-D&N.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                        <!-- <a class="popup-vimeo"  href="https://player.vimeo.com/video/672447670?h=60a8612c73" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672447670?h=60a8612c73">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Always D&N</h4>
+                         
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <!--End Work Item -->
+
+            <!-- Work Item -->
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/08-RNMOTION_Vick-Vaposhower.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                        <!-- <a class="popup-vimeo"  href="https://player.vimeo.com/video/672449764?h=c8aeb0c8bd" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672449764?h=c8aeb0c8bd">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Vick Vaposhower</h4>
+                 
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <!--End Work Item -->
+
+            <!-- Work Item -->
+            <li class="work-item thumnail-img mix event">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/09-RNMOTION_Dolo-Neurobion-Sports.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                      <!--   <a class="popup-vimeo"  href="https://player.vimeo.com/video/672449623?h=7f55a0863a" >
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        -->
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672449623?h=7f55a0863a">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Dolo Sports</h4>
+                        
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <!--End Work Item -->
+
+            <!-- Work Item -->
+            <li class="work-item thumnail-img mix wedding">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/10-RNMOTION_Sedalmerck-Tienditas.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                        <!-- <a class="popup-vimeo"  href="https://player.vimeo.com/video/672449739?h=57bd765b2b" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672449739?h=57bd765b2b">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Sedalmerck Tienditas</h4>
+              
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <!--End Work Item -->
+
+            <!-- Work Item -->
+            <li class="work-item thumnail-img mix fashion">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/11-RNMOTION_Pesto-Bismol-Sun-Block.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                       <!--  <a class="popup-vimeo"  href="https://player.vimeo.com/video/672449671?h=e80f6b08da" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672449671?h=e80f6b08da">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Pepto Sun Block</h4>
+                   
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <!--End Work Item -->
+
+            <!-- Work Item -->
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/12-RNMOTION_Vick-Vaporub-8-horas.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                        <!-- <a class="popup-vimeo"  href="https://player.vimeo.com/video/672449594?h=27323becb6" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672449594?h=27323becb6">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4> Vaporub 8 horas</h4>
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/13-RNMOTION_Vick-No-touch.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                       <!--  <a class="popup-vimeo"  href="https://player.vimeo.com/video/672449398?h=ab7311f474" >
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        -->
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672449398?h=ab7311f474">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Vick No touch</h4>
+                     
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/14-RNMOTION_Vick-Innovation-Eclipse.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                       <!--  <a class="popup-vimeo"  href="https://player.vimeo.com/video/672449349?h=10ccedd4d4" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672449349?h=10ccedd4d4">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Vick Eclipse</h4>
+                  
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/15-RNMOTION_Vick-How-to-use.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                       <!--  <a class="popup-vimeo"  href="https://player.vimeo.com/video/672449552?h=dbd04b6d9e" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672449552?h=dbd04b6d9e">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Vick How to </h4>
+                     
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/16-RNMOTION_Airia.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                      <!--   <a class="popup-vimeo"  href="https://player.vimeo.com/video/672454377?h=b3a0167e14" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672454377?h=b3a0167e14">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Airia</h4>
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/17-RNMOTION_Crest-Dentist.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                       <!--  <a class="popup-vimeo"  href="https://player.vimeo.com/video/672455378?h=bac6253771" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672455378?h=bac6253771">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Crest Dentist</h4>
+                       
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/18-RNMOTION_Arc.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                        <!-- <a class="popup-vimeo"  href="https://player.vimeo.com/video/672451488?h=040b934ab5" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672451488?h=040b934ab5">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Arc</h4>
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/19-RNMOTION_Defy.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                       <!--  <a class="popup-vimeo"  href="https://player.vimeo.com/video/672451466?h=526f361374" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672451466?h=526f361374">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Defy</h4>
+                     
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <li class="work-item thumnail-img mix corporate">
+                <div class="work-image">
+                    <img src="{% static 'AppRNMTV/images/works/20-RNMOTION_Crest-IG.jpg' %}" alt="thumbnail">
+                    
+                     <!--Hover link-->
+                     <div class="hover-link">
+                        <!-- <a class="popup-vimeo"  href="https://player.vimeo.com/video/672451432?h=24128ff6e0" >
+                            <i class="fa fa-plus"></i>
+                        </a> -->
+                       
+                        <a class="popup-vimeo" href="https://player.vimeo.com/video/672451432?h=24128ff6e0">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                     </div>
+                     <!--End link-->
+
+                     <!--Hover Caption-->
+                     <div class="work-caption">
+                         <h4>Crest IG</h4>
+                     </div>
+                     <!--End Caption-->
+
+                </div> <!-- /.work-image-->
+            </li> 
+            <!--End Work Item -->
+        </ul>
+        
+    </div>
+</section>
+
+
+
+
+
+<section id="services" class="section">
+    <div><img class="imgdere" src="{% static 'AppRNMTV/images/software/softdere1.png' %}" ></p></div><p></p>
+    <div class="container">
+        
+        <div class="row">
+                
+         <div class="title-box text-center">
+             
+            <h2 class="title">Services & Software</h2>
+         </div>
+          
+         </div>
+
+<div class="tab-pane" id="tab-content-4">
+												
+    <div class="tab-content-4">
+        
+        <div class="col-md-3">
+           
+           
+            <div class="tab4-services-box">
+               
+                <div class="info"> 
+                    <h1 class="te">3D</h1><br>
+                    <p class="serv">3D model</p>
+                    <p class="serv">3D render</p>
+                    <p class="serv">3D simulation</p>
+                    <p class="serv">3D animation</p>
+                </div>
+                
+            </div>
+           
+        </div> 
+      
+        
+
+    
+
+
+
+        <div class="col-md-3">
+            <div class="tab4-services-box">
+              
+                <div class="info">
+                    <h1 class="te">Shooting</h1><br>
+                    <p class="serv">Product demo</p>
+                    <p class="serv">Productperformance<br> demo</p>
+                    <p class="serv">Product placement &<br>replacement</p>
+                    <p class="serv">End card &<br> product card</p>
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+        
+        <div> <h1 class="te3">VFX</h1></div>
+        <div class="col-md-3">
+            <div class="tab4-services-box">
+        
+                <div class="info">
+                    <p class="serv">Green screen</p>
+                    <p class="serv">Rotoscopy</p>
+                    <p class="serv">Tracking</p>
+                    <p class="serv">Color correction</p>
+                    <p class="serv">Integration CG</p>
+                    <p class="serv">Depth Compositiong</p>
+                    <p class="serv">Look Development</p>
+                    <p class="serv">Video editing</p>
+                   
+                </div>
+            </div>
+        </div>
+ 
+    
+       
+       
+
+        <div class="col-md-3">
+            <div class="tab4-services-box">
+               
+                <div class="info">
+                   
+                
+                    <br>
+                    <br>
+                   
+                </div>
+            </div>
+        </div>
+    
+    </div>	
+    
+        
+</div>
+
+</div>
+</div>
+</div> 
+</div> 
+
+<hr>
+</section>
+
+<section  id="skills" class="section parallax">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+                 
+         
+              
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                <figure>
+                    <img class="imgsoft" src="{% static 'AppRNMTV/images/software/3.png' %}" alt="" />
+                </figure>
+             </div>
+             
+           
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                <figure>
+                    <img class="imgsoft" src="{% static 'AppRNMTV/images/software/1.png' %}" alt="" />
+              </figure>
+             </div>
+             
+           
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                <figure>
+                    <img class="imgsoft" src="{% static 'AppRNMTV/images/software/2.png' %}" alt="" />
+              </figure>
+     
+             </div>
+             
+        
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                <figure>
+                    <img class="imgsoft" src="{% static 'AppRNMTV/images/software/4.png' %}" alt="" />
+               </figure>
+             </div>
+
+         
+        </div> 
+    </div> 
+</section> 
+
+
+
+
+ 
+       
+<!-- <section id="ourprojects" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="section-title text-center">
+                    
+                    <span class="border-line"></span>
+                </div>
+            </div>
+        </div>
+         
+            <div class="clients-carousel">
+                
+
+                <div class="item">
+                   
+                        <figure>
+                            <img src="{% static 'AppRNMTV/images/software/vacio1.png' %}" alt="" />
+                        </figure>
+                </div>
+            
+                 <div class="item">
+                         <figure>
+                             <img src="{% static 'AppRNMTV/images/software/3.png' %}" alt="" />
+                         </figure>
+               
+                 </div>
+                 <div class="item">
+                     
+                         <figure>
+                               <img src="{% static 'AppRNMTV/images/software/1.png' %}" alt="" />
+                         </figure>
+                     
+                 </div>
+                 <div class="item">
+                  
+                         <figure>
+                               <img class="soft" src="{% static 'AppRNMTV/images/software/2.png' %}" alt="" />
+                         </figure>
+                
+                 </div>
+                 
+      
+                 <div class="item">
+                     
+                         <figure>
+                              <img src="{% static 'AppRNMTV/images/software/4.png' %}" alt="" />
+                         </figure>
+                    
+                 </div>
+                 
+               
+               
+          </div>
+        </div> 
+  </div> 
+</section>
+ -->
+
+<div class="work-main">
+    
+    <ul class="work-grid">
+       
+      
+      
+        <li class="work-item thumnail-img mix corporate">
+            <div class="work-image1">
+                <img class="webimg" src="{% static 'AppRNMTV/images/team/team1.png' %}" alt="thumbnail">
+
+            </div> 
+        </li> 
+      
+        <li class="work-item thumnail-img mix event">
+            <div class="work-image1">
+                <img class="webimg" src="{% static 'AppRNMTV/images/team/team2.png' %}" alt="thumbnail">
+                
+               
+
+            </div> 
+        </li> 
+       
+        <li class="work-item thumnail-img mix wedding">
+            <div class="work-image1">
+                <img class="webimg" src="{% static 'AppRNMTV/images/team/team3.png' %}" alt="thumbnail">
+                
+            
+               
+            </div> 
+        </li> 
+       
+        <li class="work-item thumnail-img mix fashion">
+            <div class="work-image1">
+                <img  class="webimg" src="{% static 'AppRNMTV/images/team/team4.png' %}" alt="thumbnail">
+                
+              
+            </div> 
+        </li> 
+       
+
+     
+    </ul>
+    
+</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+
+<div class="title-box text-center white">
+    <h2 class="title">TEAM</h2>
+ 
+ </div>
+
+<div ><hr></div>
+
+<section  id="skills" class="section-padding">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            
+           
+        
+            
+             
+           
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                
+                
+                        
+                
+            
+             
+                <br>
+                <br>
+                <br>
+                
+
+
+                 <h4>VFX SPECIALISTS</h4><br>
+                 <p class="tr">Visual artists specialized in 
+                    CGI, 3D, FX, Motion Graphics 
+                    & Video</p><br>
+                    <div class="work-image1">
+                        <img class="team" src="{% static 'AppRNMTV/images/team/team1.png' %}" alt="thumbnail">
+        
+                    </div> 
+             </div>
+             
+             
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    
+               
+                <br>
+                <br>
+                <br>
+                
+                 <h4>3D ARTISTS</h4><br><br>
+                 <br>
+                 <p>Specialized in different areas: 
+                    fluids, character animation, 
+                    product showcase</p>
+                    <div class="work-image1">
+                        <img class="team" src="{% static 'AppRNMTV/images/team/team2.png' %}" alt="thumbnail">
+        
+                    </div> 
+             </div>
+             
+             
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                
+                <br>
+                <br>
+                <br>
+                
+
+                 <h4>EDITORS & 
+                    COLORISTS</h4><br>
+
+                 <p>Ensure the Director’s vision is 
+                    delivered from pre-production 
+                    to final cut. Color integration, 
+                    luminosity & contrast of 
+                    sequential shots.</p>
+                    <div class="work-image1">
+                        <img class="team" src="{% static 'AppRNMTV/images/team/team3.png' %}" alt="thumbnail">
+        
+                    </div> 
+             </div>
+             
+             
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                
+              
+                <br>
+                <br>
+                <br>
+                
+                 <h4>DIRECTORS</h4><br><br><br>
+                 <p class="direct">We roster over 12 
+                    directors in LA.
+                    </p>
+                    <div class="work-image1">
+                        <img class="team" src="{% static 'AppRNMTV/images/team/team4.png' %}" alt="thumbnail">
+        
+                    </div> 
+             </div>
+
+         
+        </div> <!-- /.row-->
+   
+    </div> <!-- /.container-->
+  
+</section> 
+
+
+
+
+
+<section id="contact" class="section parallax">
+    <div class="overlay"></div>
+     <div class="container">
+         <div class="row">
+
+            <div class="contact-info text-center">
+                <img class="footerimg" src="{% static 'AppRNMTV/images/logocont1.png' %}" alt="logo" />
+             </div>
+         
+             
+
+              
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                
+             </div>
+             
+           
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                <div class="blog-post">
+                    <div class="post-media">
+                       
+                    </div>
+                  <div class="post-desc">
+                      <h1 class="lugar">GLOBAL</h1>
+                      <p class="nom">Emilia Bello</p>
+                      <p class="puestos">Account Director</p>
+                      <p class="cont" ><a href='mailto:emilia@rnmotion.com?' style="color: #ffffff">emilia@rnmotion.com</a></p>
+                      <p class="cont"><a style="color: #ffffff">+52 (55)40846395</a></p>
+                       
+                  </div>
+              </div>
+             </div>
+             
+           
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                <div class="blog-post">
+                    <div class="post-media">
+                        
+                    </div>
+                  <div class="post-desc">
+                      <h1 class="lugar">BRAZIL</h1>
+                      <p class="nom">Diego Domínguez</p>
+                      <p class="puestos">Account Director</p>
+                      <p class="cont" ><a href='mailto:emilia@rnmotion.com?' style="color: #ffffff ">diego@rnmotion.com</a></p>
+                      <p class="cont"><a style="color: #ffffff">+52 (55)40846395</a></p>
+                     <!--  <h1 class="lugar">PRODUCTION</h1>
+                        <p class="nom">Marina Solis</p>
+                        <p class="puestos">Head of Production</p>
+                        <p class="cont" ><a href='mailto:emilia@rnmotion.com?' style="color: #ffffff">marina@rnmotion.com</a></p>
+                        <p class="cont"><a style="color: #ffffff">+52 (55)40846395</a></p> -->
+                     
+                  </div>
+                  
+              </div>
+     
+             </div>
+             
+        
+             <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+               
+             </div>
+
+
+
+
+
+
+           </div>
+
+
+
+          <div class="col-md-4">
+            <div class="blog-post">
+                  <div class="post-media">
+                     
+                  </div>
+                <div class="post-desc1">
+                    <p class="Chicago">Chicago</p>
+                </div>
+            </div>
+            
+        </div>
+        
+      
+        
+
+
+
+       
+        <div class="col-md-4">
+            <div class="blog-post">
+                  <div class="post-media">
+                     
+                  </div>
+                <div class="post-desc1">
+                    <p class="mexico">Mexico City</p>
+                   <!--  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, dolorum, fugiat, eligendi magni quibusdam iure cupiditate ex voluptas unde</p> -->
+                     
+                </div>
+            </div>
+       
+        </div>
+
+
+        
+       
+        
+        <!-- Start Blog item #3-->
+        <div class="col-md-4">
+            <div class="blog-post">
+                  <div class="post-media">
+                      
+                  </div>
+                <div class="post-desc1">
+                    <p class="sao">São Paulo</p>
+                </div>
+                
+            </div>
+        </div>
+       
+    </div> 
+
+
+
+
+
+           
+     </div> 
+ </section>
+
+
+
+
+
+
+         <footer>
+            <div class="container">
+                <div class="row">
+                    <!--Start copyright-->
+                    <div class="">
+                        <div class="copyright"><p class="Rights">© 2022 RN Motion Production House All Rights reserved 
+                      </p></div>
+                    </div>
+                    <!--End copyright-->
+                    
+                    <!--start social icons-->
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                       <!--  <div class="social-icons">
+                            <ul>
+                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                             <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                         </div> -->
+                    </div>
+                    <!--End social icons-->
+                </div> <!-- /.row-->
+            </div> <!-- /.container-->
+        </footer>
+
+   
+   <a href="#" class="scrollup"> <i class="fa fa-chevron-up"> </i> </a>
+
+  
+
+  
+   <script type="text/javascript" src="{% static 'AppRNMTV/js/jquery-1.11.1.min.js' %}"></script>
+   <script type="text/javascript" src="{% static 'AppRNMTV/js/bootstrap.min.js' %}"></script> 
+   <script type="text/javascript" src="{% static 'AppRNMTV/js/owl-carousel/owl.carousel.js' %}"></script>
+   <script type="text/javascript" src="{% static 'AppRNMTV/js/jquery.flexslider-min.js' %}"></script>
+   <script type="text/javascript" src="{% static 'AppRNMTV/js/jquery.magnific-popup.min.js' %}"></script>
+   <script type="text/javascript" src="{% static 'AppRNMTV/js/easing.js' %}"></script>
+   <script type="text/javascript" src="{% static 'AppRNMTV/js/jquery.easypiechart.js' %}"></script>
+   <script type="text/javascript" src="{% static 'AppRNMTV/js/jquery.appear.js' %}"></script>
+   <script type="text/javascript" src="{% static 'AppRNMTV/js/jquery.parallax-1.1.3.js' %}"></script>
+   <script type="text/javascript" src="{% static 'AppRNMTV/js/jquery.mixitup.min.js' %}"></script>
+   <script type="text/javascript" src="{% static 'AppRNMTV/js/custom.js' %}"></script>
+
+
+    <!-- apartado  -->
+    <!-- <script src="{% static 'AppRNMTV/js/owl.carousel1.js' %}" type="text/javascript"></script>
+    <script src="{% static 'AppRNMTV/js/jquery.min.js' %}" type="text/javascript"></script>
+    
+ -->
+
+</body>
+</html>
